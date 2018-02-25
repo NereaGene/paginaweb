@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8">
+        <title>Reír y llorar</title>
+        <link rel="stylesheet" href="master.css" />
+        <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+        <script src="jquery/jquery-3.3.1.slim.js"></script>
+        <script src="bootstrap-4.0.0/dist/js/bootstrap.bundle.js"></script>
+        <script src="index.js"></script>
+</head>
+<body>
+     <header>
+    <div class="container2">
+      <div class="row">
+        <div class="header_logo col-10 col-md-3">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="header_search col-md-6">
+          <div class="row">
+            <div class="header_search col-md-11">
+              <form action="">
+                <div class="input-group">
+                  <label for="search"></label>
+                  <input type="text" class="header_input form-control" id="search" placeholder="Buscar">
+                  <div class="input-group-prepend">
+                    <button type="submit" class="header_boton input-group-text">Buscar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+         <div class="d-none d-lg-block header_login col-md-3">
+          <a href="" clas="entrar_espacio">Entrar a mi espacio</a>
+        </div>
+      </div>
+    </div>
+    </header>
+     <div class="input-group">
+                  <label for="email"></label>
+                  <span class="input-group-prepend input-group-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Email <br><i class="fa fa-envelope" aria-hidden="true"></i>
+                  </span>
+                  <input id="email" type="email" class="form-control col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" name="email" placeholder="" required value=""/>
+                      <div class="valid-feedback">
+                       <i class="fa fa-check" aria-hidden="true"></i>¡Perfecto!
+                      </div>
+                      <div class="invalid-feedback">
+                       <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un email válido.
+                      </div>
+
+                </div>
+                <br>
+
+                <!--contraseña-->
+                <div class="input-group">
+                 <label for="pass"></label>
+                  <span class="input-group-prepend input-group-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Contraseña <br><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                  </span>
+                  <input id="pass" type="password" name="password" class="form-control col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" placeholder="" minlength=6 required value=""/>
+                      <div class="valid-feedback">
+                       <i class="fa fa-check" aria-hidden="true"></i>¡Perfecto!
+                      </div>
+                      <div class="invalid-feedback">
+                       <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe una contraseña con mínimo de 6 caracteres.
+                      </div>
+                </div>
+                <br>
+                <!--repetir contraseña-->
+
+                <div class="input-group">
+                  <label for="pass2"></label>
+                  <span class="input-group-prepend input-group-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Repite contraseña <br><i class="fa fa-unlock-alt " aria-hidden="true"></i>
+                  </span>
+                  <input id="pass2" type="password" name="pass2" class="form-control col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" placeholder="" minlength=6 required value=""/>
+                      <div class="valid-feedback">
+                       <i class="fa fa-check" aria-hidden="true"></i>¡Perfecto!
+                      </div>
+                      <div class="invalid-feedback">
+                       <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe la misma contraseña.
+                      </div>
+                </div>
+                <br>
+                <!--fecha de nacimiento-->
+
+                <div class="input-group">
+                  <br/>
+                  <label for="date"></label>
+                  <span class="input-group-prepend input-group-text col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">Fecha de nacimiento <br><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
+                  <input id="date" type="date" class="form-control col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" name="fecha" required value=""/>
+                      <div class="valid-feedback">
+                       <i class="fa fa-check" aria-hidden="true"></i>¡Perfecto!
+                      </div>
+                      <div class="invalid-feedback">
+                       <i class="fa fa-times" aria-hidden="true"></i>Por favor, elige la fecha en la que naciste.
+                      </div>
+                </div>
+</body>
+</html>
